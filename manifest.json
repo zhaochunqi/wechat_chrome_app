@@ -4,12 +4,21 @@
   "version": "0.1",
   "manifest_version": 2,
   "app": {
-	  "urls": ["http://blog.zhaochunqi.com"],
-	  "launch": {
-		  "web_url":"http://web.wechat.com"
-	  }
-    },
+    "urls": [
+      "http://blog.zhaochunqi.com"
+    ],
+    "launch": {
+      "web_url": "http://web.wechat.com",
+      "container": "panel",
+      "height": 700,
+      "width": 860,
+      "minHeight": 700,
+      "minWidth": 860,
+      "maxHeight": 700,
+      "maxWidth": 860
+    }
+  },
   "icons": {
-    "128":"wechat128.png"
+    "128": "wechat128.png"
   }
 }
