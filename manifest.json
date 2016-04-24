@@ -10,7 +10,6 @@
 	  }
     },
   "icons": {
-    "128":"wechat_logo_128.png",
-	  "300":"wechat_logo.png"
+    "128":"wechat128.png"
   }
 }
